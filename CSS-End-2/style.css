@@ -1,0 +1,49 @@
+body{
+    background:#c3cfe2;
+    }
+.profilepic{
+    padding:20px;
+    border-radius: 30px;
+    width:80%
+}
+.images{
+    display:inline;
+}
+.profilepic:hover{
+    background:blue;
+    opacity:0;
+
+    
+}
+.button{
+
+   
+    transform: translateX(150px) translateY(-250px);
+    padding:20px;
+    margin:100px;
+    text-align: center;
+    background:blue;
+    opacity:0;
+    
+}
+.button:hover{
+    opacity:1;
+}
+
+
+
+
+
+
+
+@media (min-width:768px){
+    .profilepic{
+        width:40%;
+    }
+}
+
+@media (min-width: 1024px){
+    .profilepic{
+        width:25%;
+    }  
+} 
